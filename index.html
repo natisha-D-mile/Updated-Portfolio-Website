@@ -1,0 +1,715 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+   
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Natnael Demile | Portfolio</title>
+    <!-- <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-KK94CHFLLe+nY2dmCWGMq91rCGa5gtU4mk92HdvYe+M/SXH301p5ILy+dN9+nJOZ" crossorigin="anonymous">
+    -->
+    <link rel="stylesheet" href="resources/css/bootstrap.min.css"> 
+    <link rel="stylesheet" href="resources/css/style.css">
+    <link rel="stylesheet" href="resources/css/line-awesome.min.css">
+    <link rel="icon" href="favicon.ico?v=2">
+    <style>
+        @keyframes typing {
+          0% {
+            content: "!היי";
+          }
+          25% {
+            content: "Greetings!";
+          }
+          50% {
+            content: "ሰላም!";
+          }
+          75% {
+            content: "Akkam!";
+          }
+          100% {
+            content: "!أهلاً";
+          }
+        }
+    
+        .typewriter::after {
+          content: "";
+          animation: typing 8s steps(4) infinite;
+        }
+        #hero-image{
+            background-color: #fff;
+            padding: 24px;
+            border-radius: 20px;
+            color: #022a30;
+            opacity: 0.85;
+            position: relative;
+            
+            display: flex;
+      justify-content: center; /* Adjust  */
+      align-items: center; /* Adjust  */
+    }
+
+    .hero-image p {
+      margin: 0; /* Adjust */
+    }
+    @keyframes myname-animation {
+      0% { color: black; }
+      50% { color: #08abc4; }
+      100% { color: black; }
+    }
+
+    .animated-word {
+      animation: myname-animation 2s infinite; 
+    }
+    @keyframes bounce-animation {
+      0% { transform: translateY(0); }
+      50% { transform: translateY(-20px); }
+      100% { transform: translateY(0); }
+    }
+
+    .bouncing-image {
+      animation: bounce-animation 1s infinite; /* duration and animation properties  */
+    }
+
+    .links-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  
+  /* Other styles... */
+}
+
+    .btn {
+  /* style for the button */
+  margin: 10px;
+  /* Other styles... */
+}
+      </style>
+    
+</head>
+
+    <body data-bs-spy="scroll" data-bs-target=".navbar">
+
+        <!-- SIDE NAV -->
+        <nav class="navbar navbar-expand-lg navbar-dark fixed-top">
+            <div class="container flex-lg-column">
+                <a class="navbar-brand mx-lg-auto mb-lg-4" href="#">
+                    <span class="h4 fw-bold d-block d-lg-none">Natnael Demile Yismaw</span>
+                    <img src="resources/images/natisha.jpg" class="d-none d-lg-block rounded-circle" alt="Natnael Demile" title="Natnael Demile">
+                </a>
+                <!--Bootstrap navbar toggler button (hamburger) displayed on smaller screen size-->
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+                    aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarNav">           <!--Code snippet from the Bootstrap framework-->
+                    <ul class="text-lg-center   d-flex flex-column ps-1"> 
+                    <!--LINKS-->
+                        <li class="nav-item">
+                            <a class="nav-link is-active" href="#home">Home</a>
+                        </li>
+
+                        <li class="nav-item">
+                            <a class="nav-link" href="#about">About</a>
+                        </li>
+
+                        <li class="nav-item">
+                            <a class="nav-link" href="#interests">Interests</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#work">Work</a>
+                        </li>
+                        
+                        <li class="nav-item">
+                            <a class="nav-link" href="#testimonials">Testimonials</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#blog">Blog</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#contact">Contact</a>
+                        </li>
+                       <img src="resources/images/logo2.png" class="bouncing-image" id="imglog2">
+                    </ul>
+                    
+                </div>
+            </div>
+        </nav>
+        <!-- SIDE NAV ENDS -->
+    
+        <!-- PAGE SEPARATOR -->
+        <div id="main-content">
+    
+            <!-- HOME -->
+            <section id="home" class="full-height px-lg-5">
+    
+                <div class="container-fluid">
+                    <div class="row text-center" id="hero-image">
+                        <div class="col-lg-10 d-flex flex-column align-items-center justify-content-center">
+                          
+                            <div class="typewriter display-4 fw-bold"> </div>
+                            <h1 class="display-4 fw-bold" ><span class="text-brand">The  CURIOUS INTELLECT takes center stage! </span> </h1>
+                            <p class="lead mt-2 mb-4" >
+                                Meet <span class="animated-word">Natnael Demile</span>, a name synonymous with an unquenchable thirst for knowledge and an 
+                                unwavering drive to explore uncharted territories. With a fiery passion for CS, Natnael embodies the spirit 
+                                of an intellectually curious individual who never settles for the ordinary.</p>
+                            <div class="links-container">
+                                <a  href="#work" class="col-sm-12 col-lg-6 btn btn-brand me-5">View Projects</a>
+                                <a  href="#" class="col-sm-12 col-lg-6 link-custom"  style="text-align: left;">Call: (+251) 94 410 8338</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+    
+            </section>
+            <!-- HOME ENDS -->
+    
+            <!-- ABOUT -->
+            <section id="about" class="full-height w-100 px-lg-5">
+                <div class="container-fluid w-100">
+                    
+                    
+                    <div class="row pb-4">
+                        <div class="col-lg-12">
+                            <h6 class="text-brand">ABOUT</h6>
+                       
+                            <div class="carousel-inner">
+                                <div class="carousel-item active">
+                                    <img src="resources/images/arts.jpg" class="carousel-image" alt="Image">
+                                    <div class="carousel-caption ">
+                                        <h5>Welcome to <i>my Creative Journey</i>, where the world of Computer Science intertwines with boundless curiosity and a thirst for knowledge. 
+                                            I am <i>Natnael Demile</i>, a Computer Science student propelled by an unyielding passion for learning  and a relentless drive to explore beyond the realms of the known.</h5>
+                                    </div>
+                                </div>
+                                
+                            </div>
+                           <br> <br>
+                        <div id="carouselExampleDark" class="carousel carousel-dark slide">
+                            <div class="carousel-indicators">
+                              <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+                              <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="1" aria-label="Slide 2"></button>
+                              <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="2" aria-label="Slide 3"></button>
+                            </div>
+                            <div class="carousel-inner" style="height:80vh">
+                              <div class="carousel-item active" data-bs-interval="10000">
+                                <img src="resources/images/idealist1.jpg" class="d-block w-100" alt="...">
+                                                            
+                              </div>
+                              <div class="carousel-item" data-bs-interval="2000">
+                                <img src="resources/images/idealist2.jpg" class="d-block w-100" alt="...">
+                                
+                              </div>
+                              <div class="carousel-item">
+                                <img src="resources/images/idealist3.jpg" class="d-block w-100" alt="...">
+                
+                              </div>
+                            </div>
+                            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleDark" data-bs-slide="prev">
+                              <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                              <span class="visually-hidden">Previous</span>
+                            </button>
+                            <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleDark" data-bs-slide="next">
+                              <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                              <span class="visually-hidden">Next</span>
+                            </button>
+                          </div>
+                        
+                    <div class="text-white px-5 pt-4 mb-5" style="text-align: justify;" >
+                        &nbsp; As a Computer Science enthusiast, I thrive on the ever-evolving landscape of technology, constantly pushing the boundaries of my understanding and seeking to go beyond the confines of my coursework.  
+                        With a thirst for innovation, I dive into the depths of coding languages, algorithms, and software development, eager to unravel the mysteries of the digital world.
+                        However, I see myself as more than just a Programmer. I am an Idealist and a Pragmatist, embracing both the visionary possibilities 
+                        and the practical applications of my craft.
+                        My love for knowledge extends beyond Computer Science. You'll often find me engrossed in books, delving into topics ranging from 
+                        philosophy to spirituality. I contribute to articles and express my thoughts through my personal blog, where I explore ideas and 
+                        share insights with an eager audience. <br><br>
+                        &nbsp; Programming, to me, is not merely a tool but a means of expression. It is a vehicle through which I bring ideas to life, solve 
+                        complex problems, and create innovative solutions. I believe in the power of tech to shape our world and bring about positive change.
+                        Beyond the digital realm, my intellectual curiosity knows no bounds. I find inspiration in diverse fields, drawing connections and seeking 
+                        insights that can enrich my work (<i>Connecting the Dots</i>). Whether it's exploring the depths of spirituality or diving into the mysteries of the universe, I am constantly 
+                        seeking new perspectives and expanding my horizons.<br><br>
+                        &nbsp;Join me on this creative journey as we merge imagination and action, paving the way for innovation and growth. Together, we can challenge conventions, 
+                        break free from limitations, and embark on a journey of intellectual exploration. Let's push the boundaries of what is possible, leaving a lasting impact on the world 
+                        through our curiosity, passion, and thirst for knowledge.
+                        <b>Welcome again to my world—<i>where imagination becomes reality, ideas take flight, and intellectual curiosity fuels the creative soul.
+                        </i> </b>
+                    </div>
+
+                        <h1>My Education & Skills</h1>
+                        </div>
+                    </div>
+    
+                    <div class="row gy-5">
+                        <div class="col-lg-6">
+    
+                            <h3 class="mb-4">Educational Background</h3>
+                            <div class="row gy-4">
+    
+                                <div class="col-12">
+                                    <div class="bg-base p-4 shadow-effect">
+                                        <h4>BSc in Computer Science</h4>
+                                        <p class="text-brand mb-2">American College of Technology (2021 - Present)</p>
+                                        <p class="mb-0">I am currently pursuing my Computer Science degree at the American College of Technology (ACT), where I am fully immersed in a rigorous and intensive curriculum. The courses I am taking 
+                                            are designed to provide me with a comprehensive understanding of the foundations and advanced concepts in the field of Computer Science. </p>
+                                    </div>
+                                </div>
+    
+                                <div class="col-12" >
+                                    <div class="bg-base p-4 shadow-effect">
+                                        <h4>High School Diploma</h4>
+                                        <p class="text-brand mb-2">Saint Joseph High School (2016 - 2020)</p>
+                                        <p class="mb-0">I successfully graduated from Saint Joseph High School, where I spent four enriching years of my academic journey. During my time there, I had the opportunity to
+                                             take Advanced Placement (AP) courses, which challenged and expanded my knowledge in various subjects. I am thrilled to share that I achieved a perfect 4.0/4.0 grade point average upon graduation, reflecting my dedication and commitment to excellence.
+                                             High school was an incredible chapter of my life, and I thoroughly enjoyed my time immersed in studying and pursuing intellectual growth.</p>
+                                    </div>
+                                </div>
+                              
+                               
+    
+                            </div>
+    
+                        </div>
+    
+                        <div class="col-lg-6">
+    
+                            <h3 class="mb-4" >Skills</h3>
+                            <div class="row gy-4">
+    
+                                <div class="col-12">
+                                    <div class="bg-base p-4 shadow-effect">
+                                        <h4>Critical Thinking and Problem-Solving</h4>
+                                        <p class="text-brand mb-2">Advanced</p>
+                                       </div>
+                                </div>
+                                <div class="col-12">
+                                    <div class="bg-base p-4 shadow-effect">
+                                        <h4>Academic Writing and Creative Writing</h4>
+                                        <p class="text-brand mb-2">Advanced</p>
+                                       </div>
+                                </div>
+    
+                                <div class="col-12">
+                                    <div class="bg-base p-4 shadow-effect">
+                                        <h4>C++ programming language</h4>
+                                        <p class="text-brand mb-2">Upper Intermediate (On-the-way to Advanced)</p>
+                                       </div>
+                                </div>
+
+                                <div class="col-12">
+                                    <div class="bg-base p-4 shadow-effect">
+                                        <h4>Java programming language</h4>
+                                        <p class="text-brand mb-2">Upper Intermediate (On-the-way to Advanced)</p>
+                                       </div>
+                                </div>
+                                <div class="col-12">
+                                    <div class="bg-base p-4 shadow-effect">
+                                        <h4>Python programming language</h4>
+                                        <p class="text-brand mb-2">Beginner (Promising)</p>
+                                       </div>
+                                </div>
+
+    
+                            </div>
+    
+                        </div>
+    
+                    </div>
+    
+                </div>
+            </section>
+            <!-- ABOUT ENDS -->
+
+            <!-- Interests -->
+            <section id="interests" class="full-height px-lg-5">
+                <div class="container">
+
+                    <div class="row pb-4">
+                        <div class="col-lg-8">
+                            <h6 class="text-brand">Interests</h6>
+                            <h1>Things I'm Passionate About</h1>
+                        </div>
+                    </div>
+    
+                    <div class="row gy-4">
+    
+                        
+                        <div class="col-md-4">
+                            <div class="interests p-4 bg-base shadow-effect">
+                                <div class="iconbox">
+                                    <i class="las la-robot"></i>
+                                </div>
+                                <h5 class="mt-4 mb-2">Machine Learning</h5>
+                                <p>Machine learning is not just a field of study for me; it is my passion. The fascinating world of algorithms, data, and 
+                                    patterns captivates my mind and ignites my creativity. I am thinking of to making a meaningful impact through this transformative technology.</p>
+                                    <a href="#" class="link-custom">Read More</a>
+                            </div>
+                        </div>
+    
+                        <div class="col-md-4">
+                            <div class="interests p-4 bg-base  shadow-effect">
+                                <div class="iconbox">
+                                    <i class="las la-dna"></i>
+                                </div>
+                                <h5 class="mt-4 mb-2">Bioinformatics</h5>
+                                <p>Bioinformatics has recently piqued my interest, even though I'm still at the early stages of 
+                                    exploring this fascinating field. It has become a source of fascination for me due to its ability 
+                                    to bridge the gap between my two passions: Biology and Computer Science.</p>
+                                    <a href="#" class="link-custom">Read More</a>
+                            </div>
+                        </div>
+
+                        <div class="col-md-4">
+                            <div class="interests p-4 bg-base  shadow-effect">
+                                <div class="iconbox">
+                                    <i class="las la-laptop-code"></i>
+                                </div>
+                                <h5 class="mt-4 mb-2">Web Designing</h5>
+                                <p>Web designing is not only an area of interest for me but also a field that constantly challenges and pushes me to grow. 
+                                    The dynamic nature of web design keeps me on my toes. Despite the challenges, I embrace them as opportunities for learning 
+                                    and self-improvement. Thinking of enjoying the process:) </p>
+                                    <a href="#" class="link-custom">Read More</a>
+                            </div>
+                        </div>
+
+                        <div class="col-md-4">
+                            <div class="interests p-4 bg-base shadow-effect">
+                                <div class="iconbox">
+                                    <i class="las la-feather"></i>
+                                </div>
+                                <h5 class="mt-4 mb-2">Creative Writing</h5>
+                                <p>Creative writing is a limitless avenue where my imagination takes flight, and 
+                                    I am grateful for the opportunity to share my unique voice with the world. 
+                                    Creative writing allows me to explore the depths of my creativity and share my unique perspective with the readers.</p> 
+                                <a href="#" class="link-custom"> Read More</a>
+                            </div>
+                        </div>
+    
+                      
+                        <div class="col-md-4">
+                            <div class="interests p-4 bg-base  shadow-effect">
+                                <div class="iconbox">
+                                    <i class="las la-futbol"></i>
+                                </div>
+                                <h5 class="mt-4 mb-2">Soccer </h5>
+                                <p>Instead of viewing soccer merely as a source of entertainment, I see it as an opportunity for personal growth and value addition. 
+                                    Recently, I have taken a step further to enhance my understanding of the game through an online course on Coursera.</p>
+                                    <a href="#" class="link-custom">Read More</a>
+                            </div>
+                        </div>
+                        <div class="col-md-4">
+                            <div class="interests p-4 bg-base  shadow-effect">
+                                <div class="iconbox">
+                                    <i class="las la-book-open"></i>
+                                </div>
+                                <h5 class="mt-4 mb-2">Reading Books</h5>
+                                <p>While I was once primarily focused on academic books during my high school years, my college experience has opened the doors to a world 
+                                    of diverse literature. Stepping outside the confines of academic texts has allowed me to unlock a wealth of wisdom and inspiration. </p>
+                                    <a href="#" class="link-custom">Read More</a>
+                            </div>
+                        </div>
+
+                        <div class="col-md-4">
+                            <div class="interests p-4 bg-base  shadow-effect">
+                                <div class="iconbox">
+                                    <i class="las la-guitar"></i>
+                                </div>
+                                <h5 class="mt-4 mb-2">Acoustic Guitar</h5>
+                                <p>Playing the acoustic guitar, particularly when accompanying Christian hymns, has become a true passion of mine. Although I'm still a newbie and have yet to fully master the instrument, the desire to create beautiful melodies that resonate with the uplifting messages of faith has ignited a fire within me. Eager to progress in my musical journey, I'm planning to register for a guitar class where I can receive professional guidance and learn the techniques to further enhance my skills. I'm eager to embark on this new chapter of growth.  </p>
+                                    <a href="#" class="link-custom">Read More</a>
+                            </div>
+                        </div>
+                        
+                        <div class="col-md-4">
+                            <div class="interests p-4 bg-base  shadow-effect">
+                                <div class="iconbox">
+                                    <i class="las la-hands-helping"></i>
+                                </div>
+                                <h5 class="mt-4 mb-2">Volunteering</h5>
+                                <p>Volunteering is not just a mere activity for me; it is a deep-seated passion that drives me to make a positive impact in my local community. I find immense joy and fulfillment in being actively engaged in voluntary initiatives and giving back to those in need. One organization that holds a special place in my heart is the Ethiopian Red Cross Society, where I'm honored to be a lifetime member. Through my involvement, I have had the opportunity to offer voluntary services that have touched the lives of individuals facing challenging circumstances. </p>
+                                    <a href="#" class="link-custom">Read More</a>
+                            </div>
+                        </div>
+
+                        <div class="col-md-4">
+                            <div class="interests p-4 bg-base  shadow-effect">
+                                <div class="iconbox">
+                                    <i class="las la-chalkboard-teacher"></i>
+                                </div>
+                                <h5 class="mt-4 mb-2">Tutoring</h5>
+                                <p>Tutoring is not just a job or a duty for me; it is a genuine passion that brings me immense joy and fulfillment. The opportunity to guide and support students in their academic journeys, and witness their growth and progress, is incredibly rewarding. Knowing that I'm making a positive impact in their lives fills me with a sense of purpose. Currently, I'm honored to serve as a Teaching Assistant at my college, where I have the privilege of giving tutorials in various courses alongside the course instructors.</p>
+                                    <a href="#" class="link-custom">Read More</a>
+                            </div>
+                        </div>
+    
+                    </div>
+    
+                </div>
+            </section>
+            <!-- Interests ENDS-->
+    
+            <!-- WORK -->
+            <section id="work" class="full-height px-lg-5">
+                <div class="container">
+    
+                    <div class="row pb-4" >
+                        <div class="col-lg-8">
+                            <h6 class="text-brand">WORK</h6>
+                            <h1>My Recent Projects</h1>
+                        </div>
+                    </div>
+    
+                    <div class="row gy-4">
+
+                        <div class="col-md-6">
+                            <div class="card-custom  bg-base shadow-effect">
+                                <div class="card-custom-image ">
+                                    <img  src="resources/images/project-4.jpg" alt="">
+                                </div>
+                                <div class="card-custom-content p-4">
+                                    <h4>Ethiopian Belatena Encyclopedia <i>(Ongoing Project)</i></h4>
+                                    <p>In the realm of knowledge and innovation, I, together with a dedicated group of individuals, have embarked on an extraordinary endeavor: the creation of an awe-inspiring encyclopedia tailored specifically for the bright young minds of Ethiopia, known affectionately as the "belatenas". This ambitious project, brimming with promise and potential, is forging ahead, leaving a trail of remarkable progress in its wake.  As we weave together a tapestry of wisdom, curiosity, and inspiration, we can't help but be captivated by the immense impact this encyclopedia holds for the future of Ethiopia's younger generation. Our collective efforts remain steadfast as we continue to breathe life into this monumental resource.</p>
+                                </p>
+                                    <a href="#" class="link-custom">Read More</a>
+                                </div>
+                            </div>
+                        </div>
+    
+    
+                        <div class="col-md-6">
+                            <div class="card-custom  bg-base shadow-effect">
+                                <div class="card-custom-image ">
+                                    <img src="resources/images/project-2.jpg" alt="">
+                                </div>
+                                <div class="card-custom-content p-4">
+                                    <h4>Online Restaurant Ordering Platform  <i>(prototype)</i></h4>
+                                    <p>GEBETa.org - the ULTIMATE RESTAURANT GUIDE!<br> My talented colleague and I have crafted a platform that makes it effortless for you to discover the finest restaurants in Addis, explore their inviting menus and captivating photos, and place orders for delivery. Browse our prototype site to explore the latest additions to our collection. Although not fully functional yet, GEBETa.org offers a glimpse into our innovative vision. Feel free to get in touch with our committed team for any assistance. Embark on a gastronomic adventure with GEBETa.org - a testament to our passion for revolutionizing the way you experience dining. </p>
+                                
+                                    <a href="#" class="link-custom">Read More</a>
+                                </div>
+                            </div>
+                        </div>
+
+                        
+                        <div class="col-md-6">
+                            <div class="card-custom bg-base shadow-effect">
+                                <div class="card-custom-image ">
+                                    <img src="resources/images/project-1.jpg" alt="">
+                                </div>
+                                <div class="card-custom-content p-4">
+                                    <h4>Prison Database Management System</h4>
+                                    <p>I, together with my colleagues, have developed a Prison DBMS for Atalay-Alem Prison which is a made-up prison assumed to be located at at the capital city of Ethiopia. </p>
+                                    <a href="#" class="link-custom">Read More</a>
+                                </div>
+                            </div>
+                        </div>
+    
+                        <div class="col-md-6" >
+                            <div class="card-custom  bg-base shadow-effect">
+                                <div class="card-custom-image ">
+                                    <img  src="resources/images/project-3.jpg" alt="">
+                                </div>
+                                <div class="card-custom-content p-4">
+                                    <h4>A Research Project on the Role of Regular Physical Activity in Cancer Prevention</h4>
+                                    <p>Amidst the ever-evolving landscape of medical breakthroughs, I undertook an investigation delving into the profound relationship between regular physical activity and cancer prevention. With unyielding determination and a thirst for scientific exploration, I embarked on a mini research project that is showing early signs of being beneficial. As the project unfolded, the captivating synergy between physical activity and its potential to safeguard against the insidious grasp of cancer became apparent. </p>
+                                    <a href="#" class="link-custom">Read More</a>
+                                </div>
+                            </div>
+                        </div>
+    
+                        
+                    </div>
+    
+                </div>
+            </section>
+            <!-- WORK ENDS -->
+    
+            
+    
+            <!-- TESTIMONIALS -->
+            <section id="testimonials" class="full-height px-lg-5">
+                <div class="container">
+    
+                    <div class="row pb-4">
+                        <div class="col-lg-8">
+                            <h6 class="text-brand">TESTIMONIALS</h6>
+                            <h1>What Others Say About Me </h1>
+                        </div>
+                    </div>
+    
+                    <div class="row gy-4">
+    
+                        <div class="col-md-4">
+                            
+                            <div class="review shadow-effect bg-base p-4">
+                                <i class="las la-4x text-brand la-quote-left"></i>
+                                <p>This web designer has an exceptional eye for detail and design. Their work is sleek, modern, and user-friendly. I'm thrilled with the final product.</p>
+                                <h4 class="text-brand mb-0">Brook</h4>
+                                <div>CEO at a Company</div>
+                            </div>
+                        </div>
+    
+                        <div class="col-md-4">
+                            
+                            <div class="review shadow-effect bg-base p-4">
+                                <i class="las la-4x text-brand la-quote-left"></i>
+                                <p>This web designer has an exceptional eye for detail and design. Their work is sleek, modern, and user-friendly. I'm thrilled with the final product.</p>
+                                <h4 class="text-brand mb-0">Brook</h4>
+                                <div>CEO at a Company</div>
+                            </div>
+                        </div>
+    
+                        <div class="col-md-4">
+                            
+                            <div class="review shadow-effect bg-base p-4">
+                                <i class="las la-4x text-brand la-quote-left"></i>
+                                <p>This web designer has an exceptional eye for detail and design. Their work is sleek, modern, and user-friendly. I'm thrilled with the final product.</p>
+                                <h4 class="text-brand mb-0">Brook</h4>
+                                <div>CEO at a Company</div>
+                            </div>
+                        </div>
+    
+                    </div>
+    
+                </div>
+            </section>
+            <!-- TESTIMONIALS ENDS -->
+    
+            <!-- BLOG -->
+            <section id="blog" class="full-height px-lg-5">
+                <div class="container">
+    
+                    <div class="row pb-4">
+                        <div class="col-lg-8">
+                            <h6 class="text-brand">BLOG</h6>
+                            <h1>My Blog Posts</h1>
+                        </div>
+                    </div>
+    
+                    <div class="row gy-4">
+    
+                        <div class="col-md-4">
+                            <div class="card-custom bg-base shadow-effect">
+                                <div class="card-custom-image">
+                                    <img src="resources/images/blog-post-1.jpg" alt="">
+                                </div>
+                                <div class="card-custom-content p-4">
+                                    <p class="text-brand mb-2">20 Dec, 2022</p>
+                                    <h5 class="mb-4">Design a creative landing page using Bootstrap 5</h5>
+                                    <a href="#" class="link-custom">Read More</a>
+                                </div>
+                            </div>
+                        </div>
+    
+                        <div class="col-md-4">
+                            <div class="card-custom bg-base shadow-effect">
+                                <div class="card-custom-image">
+                                    <img src="resources/images/blog-post-2.jpg" alt="">
+                                </div>
+                                <div class="card-custom-content p-4">
+                                    <p class="text-brand mb-2">20 Dec, 2022</p>
+                                    <h5 class="mb-4">Design a creative landing page using Bootstrap 5</h5>
+                                    <a href="#" class="link-custom">Read More</a>
+                                </div>
+                            </div>
+                        </div>
+    
+                        <div class="col-md-4">
+                            <div class="card-custom bg-base shadow-effect">
+                                <div class="card-custom-image rounded-4">
+                                    <img src="resources/images/blog-post-3.jpg" alt="">
+                                </div>
+                                <div class="card-custom-content p-4">
+                                    <p class="text-brand mb-2"> Jan 5, 2023</p>
+                                    <h5 class="mb-4">Design a creative landing page using Bootstrap 5</h5>
+                                    <a href="#" class="link-custom">Read More</a>
+                                </div>
+                            </div>
+                        </div>
+    
+                    </div>
+    
+                </div>
+            </section>
+            <!-- //BLOG -->
+    
+            <!-- CONTACT -->
+            <section id="contact" class="full-height px-lg-5">
+                <div class="container">
+
+                    
+                        <h6 class="text-brand text-center">CONTACT</h6>
+                        <h1 class="text-center">I'm just a message away... Drop me a Line & <br> Let's Start a Conversation!
+                        </h1>
+                   
+    
+                    <div class="row pb-4 align-items-center mt-3">
+                        
+    
+                        <div class="col-sm-12 col-md-7">
+                            <form action="#" class="row g-lg-3 gy-3">
+                                <div class="form-group col-md-6">
+                                    <input type="text" class="form-control" placeholder="Enter name">
+                                </div>
+                                <div class="form-group col-md-6">
+                                    <input type="email" class="form-control pt-3 pb-3" placeholder="Enter email">
+                                </div>
+                                
+                                <div class="form-group col-12">
+                                    <textarea name="" rows="8" class="form-control" placeholder="Enter message"></textarea>
+                                </div>
+                                <div class="form-group col-12 d-grid">
+                                    <button type="submit" class="btn btn-brand">START THE CONVERSATION</button>
+                                </div>
+                            </form>
+                        </div>
+                        <div class="col-sm-12 col-md-5">
+                            <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m12!1m3!1d126101.82769239141!2d38.767820799999996!3d9.0013696!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!5e0!3m2!1sen!2set!4v1685195215733!5m2!1sen!2set" 
+                            width="100%" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+                        </div>
+                    </div>
+    
+    
+                </div>
+            </section>
+            <!-- //CONTACT -->
+    
+            <!-- FOOTER -->
+            <footer class="py-5 px-lg-5">
+                <div class="container">
+                    <div class="row gy-4 justify-content-between">
+                        <div class="col-auto">
+                            <p class="mb-5">
+                            <a href="mailto:natnaeldemile2002@gmail.com" target="_blank" title="Send me an email">Email Me</a>
+                            </p>
+                            <p class="mb-3">&copy; 2023 - &nbsp; Crafted with ❤️ by &nbsp;<a href="#" class="fw-bold"> Natnael Demile Yismaw.</a> 
+                        </div>
+                        
+                        <div class="col-auto">
+                            <div class="social-icons">
+                                <a href="#"><i class="lab la-linkedin-in"></i></a>
+                                <a href="#"><i class="lab la-telegram"></i></a>
+                                <a href="#"><i class="lab la-instagram"></i></a>
+                                <a href="#"><i class="lab la-github"></i></a>
+                                <a href="#"><i class="lab la-medium"></i></a>
+                                
+                                
+                                
+                                
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </footer>
+            <!-- FOOTER ENDS -->
+    
+        </div>
+        <!-- PAGE SEPARATOR ENDS -->
+    
+    
+         <script src="resources/js/bootstrap.bundle.min.js"></script>
+        <!-- <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ENjdO4Dr2bkBIFxQpeoTz1HIcje39Wm4jDKdf19U8gI4ddQ3GYNS7NTKfAdVQSZe" crossorigin="anonymous"></script>
+    -->
+        
+    </body>
+    </html>
+  
+    
+   

@@ -1,0 +1,249 @@
+/* GOOGLE FONTS*/    /*use bai jamjuree or poppins*/
+@import url('https://fonts.googleapis.com/css2?family=Bai+Jamjuree:wght@400;500;600;700&display=swap');
+
+
+
+:root {
+    --color-body: #b6cbce;
+    --color-heading: #eef3db;
+    --color-base: #033f47;
+     --color-base2: #022a30;  
+    --color-brand: #08abc4;
+    --color-brand2: #056b7a;
+    --sidbar-width: 20.5%;
+    --font-base: "Bai Jamjuree";
+}
+
+body {
+    background-color: var(--color-base2);
+    color: var(--color-body);
+    font-family: var(--font-base), sans-serif;
+}
+
+h1,h2,h3,h4,h5,h6 {
+    color: var(--color-heading);
+    font-weight: 700;
+}
+
+a {
+    text-decoration: none;
+    color: var(--color-body);
+    transition: all 0.4s ease;
+    
+}
+
+
+a:hover {
+    color: var(--color-brand);
+}
+
+img {
+    width: 100%;
+    
+}
+
+
+
+.text-brand {
+    color: var(--color-brand);
+}
+
+.bg-base {
+    background-color: var(--color-base);
+    border-radius: 15px;
+}
+
+.full-height {
+    min-height: 100vh;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding-top: 80px;
+    padding-bottom: 80px;
+    /*padding-left: 2px; */
+    border-bottom: 2px dashed rgba(255,255,255, 0.1);  /**/
+}
+
+.shadow-effect {
+    transition: all 0.5s;
+}
+
+.shadow-effect:hover {
+    box-shadow: -6px 6px 0 0 var(--color-brand);
+}
+
+
+.carousel-caption h5 {
+    font-size: 24px;
+    font-weight: bold;
+}
+
+
+.iconbox {
+    width: 60px;
+    height: 60px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 32px;
+    background-color: var(--color-brand);
+    color: var(--color-base);
+    border-radius: 50px;
+}
+
+/* SIDE NAV */
+.navbar {
+    background-color: var(--color-base);
+}
+
+#imglog {
+    width: 125px;
+    height: 125px;   
+ }
+ #imglog2 {
+    width: 150px;
+    height: 150px;
+    margin-top: 0px;
+    margin-left: 10px;   
+ }
+ .navbar-brand {
+    margin-top: 25px;
+  }
+.navbar-collapse ul {
+    list-style: none;
+    margin-left: 5px;
+  }
+  
+  
+.navbar .nav-link {
+    font-weight: 700;
+    text-transform: uppercase;
+    color: white; /**/
+}
+
+.navbar .nav-link:hover {
+    color: var(--color-brand);
+    
+}
+
+
+.navbar .nav-link.active {
+    color: var(--color-brand);
+}
+
+@media (min-width: 992px) {
+    .navbar {
+        min-height: 100vh;
+        width: var(--sidbar-width);
+        background: linear-gradient(rgba(3, 63, 71, 0.8), rgba(3, 63, 71, 0.8)), url(../images/abay.jpg);
+        background-size: cover;
+        background-position: center;
+    }
+
+    .navbar-brand img {
+        border: 5px solid var(--color-brand);
+    }
+
+    /* PAGE SEPARATOR */
+     
+     #main-content {
+        padding-left: 21%;
+        /* padding-right: 50px;  */
+    } 
+    
+
+}
+
+#home{
+    background-image: url(../images/back.jpg);
+    background-size: cover;
+    background-position: center;
+}
+
+/* BUTTON */
+.btn {
+    padding: 12px 28px;
+    font-weight: 700;
+}
+
+.btn-brand {
+    background-color: var(--color-brand);
+    border-color: var(--color-brand);
+    color: var(--color-base);
+}
+
+.btn-brand:hover,
+.btn-brand:focus {
+    background-color: var(--color-brand2);
+    color:white;
+    border-color: var(--color-brand2);  /*yeker*/
+}
+
+.link-custom {
+    font-weight: 700;
+    position: relative;
+}
+
+.link-custom::after {
+    content: "";
+    width: 0%;
+    height: 2px;
+    background-color: var(--color-brand);
+    position: absolute;
+    left: 0;
+    top: 110%;
+    transition: all 0.4s;
+}
+
+.link-custom:hover::after {
+    width: 100%;
+}
+
+/* CARD */
+.card-custom .card-custom-image {
+    overflow: hidden;
+    border-radius: 5px;
+}
+
+.card-custom .card-custom-image img {
+    transition: all 0.4s ease;
+}
+
+.card-custom:hover .card-custom-image img {
+    transform: scale(1.1);
+}
+
+/* CONTACT */
+#contact .form-control {
+    background-color: var(--color-base);
+    border-color: var(--color-base);
+    color: var(--color-body);
+}
+
+#contact .form-control:focus {
+    border-color: var(--color-brand);
+    box-shadow: none;
+}
+
+#contact .form-control::placeholder {
+    color: var(--color-body);
+}
+
+#contact input.form-control {
+    height: 44px;
+}
+
+/* SOCIAL MEDIA ICONS */
+
+
+.social-icons a {
+    width: 40px;
+    height: 40px;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    background-color: var(--color-base);
+    border-radius: 100px;
+    font-size: 24px;
+}
